@@ -44,7 +44,7 @@ export default function Home() {
         </Element>
       </section>
       <Link href="/" onClick={scrollToMain}>
-        <footer className="sticky bottom-5 w-full cursor-pointer">
+        <div className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
@@ -52,7 +52,7 @@ export default function Home() {
               alt=""
             />
           </div>
-        </footer>
+        </div>
       </Link>
     </div>
   );
